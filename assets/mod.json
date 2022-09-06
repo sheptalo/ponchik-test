@@ -1,12 +1,12 @@
 {
-  "name": "modtemplate",
-  "displayName": "Template",
-  "author": "[#8738ff[]]Sonnicon[[]]",
-  "description": "Gradle jar Mindustry mod template",
-  "version": "0",
-  "main": "sonnicon.modtemplate.ModTemplate",
-  "minGameVersion": "105",
-  "dependencies": [],
+  "name": "ponchic",
+  "displayName": "ponchic",
+  "author": "sheptalo",
+  "description": "this mod need multicrafter lib",
+  "version": "0.1",
+  "main": "sheptalo.ponchic.Ponchic",
+  "minGameVersion": "136",
+  "dependencies": ["multi-crafter"],
   "hidden": false,
   "java": true
 }
