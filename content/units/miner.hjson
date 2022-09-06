@@ -1,6 +1,6 @@
 type: flying
 flying: true
-description: mine like mono but has more itemCapacity
+description: mine like mono, but has more itemCapacity.
 speed: 4
 hitsize: 7
 rotateSpeed: 5
