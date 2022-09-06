@@ -1,9 +1,8 @@
 type: multicraft.MultiCrafter
 displayName: electro press
-description: work fast and can press thitanium and thorium
+description: work faster than copper press and can press thitanium and thorium
 health: 500
 size: 3
-menu: Transform
 requirements:[
 copper/30
 silicon/30
@@ -11,14 +10,30 @@ titanium/15
 ]
 recipes:
 [
-{
-input: {
-items: [titanium/5]
-power: 1.5
-}
-output: ponchic-titanium-plate/5
-craftTime: 50
-power: 2.5
-}
+    {
+        input: {
+            items: [lead/10]
+            power: 2
+        } 
+        output: ponchic-lead-plate/10
+        craftTime: 50
+    }
+    {
+        input: {
+            items: [titanium/10]
+            power: 2
+            }
+            output: ponchic-titanium-plate/10
+            craftTime: 50
+            }
+            {
+    input: {
+        items: [thorium/10]
+        power: 2
+        }
+        output: ponchic-titanium-plate/10
+        craftTime: 50
+        }
 ] 
 category: crafting
+menu: Transform
