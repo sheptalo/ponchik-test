@@ -1,0 +1,6 @@
+name: lead plate
+description: lead plate uses to create units and for new core
+flammability: 0
+radioactivity: 0
+explosiveness: 0
+cost: 1
