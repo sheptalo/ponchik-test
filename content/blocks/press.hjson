@@ -8,7 +8,7 @@ recipes: [
   {
     input: copper/5
     output: ponchic-copper-plate/5
-    craftTime: 200
+    craftTime: 100
   } 
 ] 
 requirements: [
