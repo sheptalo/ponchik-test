@@ -1,8 +1,8 @@
-package sheptalo.ponchic;
+package sheptalo.Ponchic;
 
 import mindustry.mod.Mod;
 
-public class sheptalo.ponchic extends Mod {
+public class sheptalo.Ponchic extends Mod {
 
     @Override
     public void init(){
