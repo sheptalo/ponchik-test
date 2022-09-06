@@ -1,5 +1,5 @@
 type: multicraft.MultiCrafter
-displayName: Press
+displayName: Copper Press
 description: Presses various materials into plates.
 itemCapacity: 10
 size: 2
