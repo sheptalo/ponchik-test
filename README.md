@@ -9,3 +9,4 @@
 - [ ] learn my friend do mod for faster develop
 - [ ] very hard made sounds
 - [ ] and last add planet and tech tree for it
+- [ ] inject multicrafter in mod
