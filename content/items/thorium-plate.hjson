@@ -1,6 +1,6 @@
 name: thorium plate
 description: thorium plates can be used for a 3 level of units
 flammability: 0
-radioactivity: 100
+radioactivity: 1
 explosiveness: 0
 cost: 1
