@@ -3,16 +3,17 @@ displayName: electro press
 description: work fast and can press thitanium and thorium
 health: 500
 size: 3
+menu: Transform
 requirements:[
 copper/30
 silicon/30
-thitanium/15
+titanium/15
 ]
 recipes:
 [
 {
-input: thitanium/5
-output: ponchic-thitanium-plate/5
+input: titanium/5
+output: ponchic-titanium-plate/5
 craftTime: 50
 power: 2.5
 }
