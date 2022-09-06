@@ -9,12 +9,11 @@ recipes: [
     input: copper/5
     output: { 
       items: [
-        copper-plate/5 //note: these things use the internal file names, not their display names
+        copper-plate/5
       ]
       power: 0
     }
     craftTime: 200
-  }
-//ajhsejashdjahejhsjdejahs this was EXTREMELY cursed hjson 
+  } 
 category: crafting
 buildVisibility: shown //(replace this with requirements later)
