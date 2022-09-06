@@ -1,84 +1,58 @@
 type: multicraft.MultiCrafter
-name "press"
-description: "presses incoming resources into plates"
+displayName: Press
+description: Presses various materials into plates.
 itemCapacity: 10
 size: 2
 menu: Transform
-recipes
-[
-{
-input: copper/5
-output:{ 
-items:[
-pressed copper/5
+recipes: [
+  {
+    input: copper/5
+    output: { 
+      items: [
+        copper-plate/5 //note: these things use the internal file names, not their display names
+      ]
+      power: 0
+    }
+    craftTime: 200
+  }
+  {
+    input: lead/5
+    output: {
+      items: [
+        //pressed lead/5 ("pressed lead" doesnt exist yet, it will make copper or give an error)
+      ] 
+    } 
+    craftTime: 200
+  }
 ]
-power: 0
-}
-craftTime: 200
-}
-{
-input: lead/5
-output:{
-items:[
-pressed lead/5
-] 
-} 
-craftTime: 200
-}
+//ajhsejashdjahejhsjdejahs this was EXTREMELY cursed hjson 
 drawer: {
-
   type: multicraft.DrawRecipe
-
-  defaultDrawer: 0 // an index used for generating the icon of this crafter. 
-
+  defaultDrawer: 0 //an index used for generating the icon of this crafter. 
   drawers: [
-
-    // for recipe 0
-
+    //for recipe 0
     { 
-
     type: DrawMulti
-
     drawers: [
-
       {
-
-          type: DrawRegion
-
-          suffix: -1
-
+        type: DrawRegion
+        suffix: -1
       }
-
       {
-
-          type: DrawArcSmelt
-
+        type: DrawArcSmelt
       }
-
     ]
-
-    }
-
-    // for recipe 1
-
+    //for recipe 1
     { 
-
       type: DrawRegion
-
       suffix: -2
-
     }
-
-    // for recipe 2
-
+    //for recipe 2
     { 
-
       type: DrawRegion
-
       suffix: -3
-
     }
-
-  ]
-
-}
+  }
+]
+category: crafting
+buildVisibility: shown //(replace this with requirements later)
