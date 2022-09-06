@@ -1,6 +1,6 @@
 
 ## todo list
-- [ ] add plates of most ores
+- [x] add plates of most ores
 - [ ] add liquids of most ores
 - [ ] add units t1
 - [ ] add units t2
