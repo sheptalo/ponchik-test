@@ -2,10 +2,10 @@ name: "copper plate"
 
 description: "pressed copper can be used in factorys and somethink else" 
 
-flammability: 0 //Воспламеняемость  
+flammability: 0  
 
-radioactivity: 0 //Радиоактивность 
+radioactivity: 0 
 
-explosiveness: 0 //Взрывоопасность
+explosiveness: 0
 
 cost: 1
