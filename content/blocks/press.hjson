@@ -16,24 +16,5 @@ recipes: [
     craftTime: 200
   }
 //ajhsejashdjahejhsjdejahs this was EXTREMELY cursed hjson 
-drawer: {
-  type: multicraft.DrawRecipe
-  defaultDrawer: 0 //an index used for generating the icon of this crafter. 
-  drawers: [
-    //for recipe 0
-    { 
-    type: DrawMulti
-    drawers: [
-      {
-        type: DrawRegion
-        suffix: -1
-      }
-      {
-        type: DrawArcSmelt
-      }
-    ]
-  }
-} 
-]
 category: crafting
 buildVisibility: shown //(replace this with requirements later)
