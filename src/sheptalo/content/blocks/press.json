@@ -1,0 +1,79 @@
+"type": "multicraft.MultiCrafter"
+
+"name": "press"
+
+"description": "presses incoming resources into plates"
+
+"itemCapacity": 10
+
+"size": 2
+
+"menu": "Transform" 
+
+"recipes" :
+
+[
+
+{
+
+"input": "copper/5"
+
+"output":{ 
+
+"items":[
+
+"copper-plate/5"
+
+]
+
+"power": 0
+
+}
+
+"craftTime": 200
+
+}
+
+{
+
+"input": "lead/5"
+
+"output":{
+
+"items":[
+
+"pressed lead/5"
+
+] 
+
+} 
+
+"craftTime": 200
+
+}
+
+"drawer": {
+  "type": "multicraft.DrawRecipe",
+  "drawers": [
+    {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+          "type": "DrawRegion",
+          "suffix": "-1"
+      },
+      {
+          "type": "DrawArcSmelt"
+      },
+    ]
+    },
+    {
+      "type": "DrawRegion",
+      "suffix":"-2"
+    },
+    {
+      "type": "DrawRegion",
+      "suffix": "-3"
+    }
+  ]
+}
