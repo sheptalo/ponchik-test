@@ -8,3 +8,4 @@
 - [ ] made parts to create units
 - [ ] learn my friend do mod for faster develop
 - [ ] very hard made sounds
+- [ ] and last add planet and tech tree for it
