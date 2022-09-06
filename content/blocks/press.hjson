@@ -33,6 +33,7 @@ drawer: {
       }
     ]
   }
+} 
 ]
 category: crafting
 buildVisibility: shown //(replace this with requirements later)
