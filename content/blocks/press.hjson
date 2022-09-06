@@ -15,16 +15,6 @@ recipes: [
     }
     craftTime: 200
   }
-  {
-    input: lead/5
-    output: {
-      items: [
-        //pressed lead/5 ("pressed lead" doesnt exist yet, it will make copper or give an error)
-      ] 
-    } 
-    craftTime: 200
-  }
-]
 //ajhsejashdjahejhsjdejahs this was EXTREMELY cursed hjson 
 drawer: {
   type: multicraft.DrawRecipe
@@ -42,16 +32,6 @@ drawer: {
         type: DrawArcSmelt
       }
     ]
-    //for recipe 1
-    { 
-      type: DrawRegion
-      suffix: -2
-    }
-    //for recipe 2
-    { 
-      type: DrawRegion
-      suffix: -3
-    }
   }
 ]
 category: crafting
