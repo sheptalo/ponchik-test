@@ -4,7 +4,7 @@
   "author": "sheptalo",
   "description": "this mod need multicrafter lib",
   "version": "0.1",
-  "main": "sheptalo.ponchic.Ponchic",
+  "main": "sheptalo.ponchic",
   "minGameVersion": "136",
   "dependencies": ["multi-crafter"],
   "hidden": false,
