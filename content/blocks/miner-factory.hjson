@@ -6,16 +6,17 @@ size: 3
 requirements:[
     ponchic-copper-plate/20
     ponchic-lead-plate/10
+graphite/50
 ]
 consumes:{
     power: 5
 }
 plans: [
     {
-        unit:miner
+        unit:copper-miner
         requirements:[
-            ponchic-lead-plate/50
-            ponchic-copper-plate/25
+            ponchic-lead-plate/25
+            ponchic-copper-plate/50
         ]
         time: 1000
     }
