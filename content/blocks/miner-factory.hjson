@@ -1,6 +1,7 @@
 name: miner factory
 description: produce miner unit without using silicon
 type: UnitFactory
+health: 300
 size: 3
 requirements:[
     ponchic-copper-plate/20
@@ -19,3 +20,4 @@ plans: [
         time: 1000
     }
 ]
+category: units
