@@ -15,4 +15,7 @@ recipes: [
     craftTime: 200
   } 
 ] 
+requirements: [
+ copper/30
+]
 category: crafting
