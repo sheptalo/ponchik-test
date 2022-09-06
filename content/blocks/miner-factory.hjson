@@ -2,6 +2,10 @@ name: miner factory
 description: produce miner unit without using silicon
 type: UnitFactory
 size: 3
+requirements:[
+    ponchic-copper-plate/20
+    ponchic-lead-plate/10
+]
 consumes:{
     power: 5
 }
