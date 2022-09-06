@@ -14,8 +14,8 @@ plans: [
     {
         unit:miner
         requirements:[
-            ponchic-lead-plate/100
-            ponchic-copper-plate/50
+            ponchic-lead-plate/50
+            ponchic-copper-plate/25
         ]
         time: 1000
     }
