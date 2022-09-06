@@ -7,7 +7,7 @@ health: 200
 recipes: [
   {
     input: copper/5
-    output: copper-plate/5
+    output: ponchic-copper-plate/5
     craftTime: 200
   } 
 ] 
