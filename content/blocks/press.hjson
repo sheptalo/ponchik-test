@@ -7,7 +7,6 @@ menu: Transform
 recipes: [
   {
     input: copper/5
-} 
     output: { 
       items: [
         copper-plate/5
@@ -16,5 +15,6 @@ recipes: [
     }
     craftTime: 200
   } 
+] 
 category: crafting
 buildVisibility: shown //(replace this with requirements later)
