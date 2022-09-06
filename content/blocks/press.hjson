@@ -9,7 +9,12 @@ recipes: [
     input: copper/5
     output: ponchic-copper-plate/5
     craftTime: 100
-  } 
+  }
+{
+input: lead/5
+output: ponchic-lead-plate/5
+craftTime: 100
+}
 ] 
 requirements: [
  copper/30
