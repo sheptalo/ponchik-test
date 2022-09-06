@@ -3,6 +3,7 @@ displayName: Press
 description: Presses various materials into plates.
 itemCapacity: 10
 size: 2
+health: 200
 recipes: [
   {
     input: copper/5
