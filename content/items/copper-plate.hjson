@@ -1,11 +1,4 @@
 name: "copper plate" 
-
+type: material
 description: "pressed copper can be used in factorys and somethink else" 
-
-flammability: 0  
-
-radioactivity: 0 
-
-explosiveness: 0
-
-cost: 1
+color: d99d73
