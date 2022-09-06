@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: multicrafter.MultiCrafter
 displayName: Press
 description: Presses various materials into plates.
 itemCapacity: 10
