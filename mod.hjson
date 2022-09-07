@@ -6,4 +6,5 @@
   minGameVersion: 136
   dependencies: []
   hidden: false
+  java: true
   main: MultiCrafterAdapter
