@@ -1,0 +1,28 @@
+type: Reconstructor
+name: Miner refabricator
+description: Update Rito into Arus. using not standart things to create
+size: 2
+liquidCapacity: 60
+consumes: {
+power: 8
+items: {
+items:[
+ponchic-titanium-plate/30
+silicon/50
+copper/50
+]
+}
+liquid: {
+ponchic-standart-material-liquid
+amount: 0.6
+}
+}
+upgrades: [
+[ponchic-rito, ponchic-arus]
+]
+requirments:[
+ponchic-titanium-plate/400
+silicon/300
+graphite/250
+]
+category: units
