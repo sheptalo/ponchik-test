@@ -2,7 +2,7 @@
 ## todo list
 - [x] add plates of most ores
 - [ ] add liquid workpiece for parts
-- [1/3] add units t1
+- [ ] add units t1
 - [ ] add units t2
 - [ ] resprite all plates
 - [ ] made parts to create units
