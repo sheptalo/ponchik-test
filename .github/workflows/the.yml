@@ -1,9 +1,9 @@
-name: build
+name: the
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,7 +17,7 @@ jobs:
 
     - name: archive the source code to a jar file
       run: | 
-        git clone --depth=1 --branch=master https://github.com/sheptalo/${{ github.event.repository.name }}
+        git clone --depth=1 --branch=main https://github.com/sheptalo/${{ github.event.repository.name }}
         cd ${{ github.event.repository.name }}
         jar -cfv ${{ github.event.repository.name }}.jar *
     - name: Upload Mod Jar
