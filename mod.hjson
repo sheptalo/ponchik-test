@@ -7,4 +7,4 @@
   dependencies: []
   hidden: false
   java: true
-  main: MultiCrafterAdapter
+  main: "MultiCrafterAdapter"
