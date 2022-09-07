@@ -4,5 +4,7 @@
   description: this mod need multicrafter lib
   version: 0.1
   minGameVersion: 136
-  dependencies: ["multi-crafter"]
+  dependencies: []
   hidden: false
+  java: true
+  main: MultiCrafterAdapter
