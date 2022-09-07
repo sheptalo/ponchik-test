@@ -1,0 +1,13 @@
+name: Arus
+type: flying
+flying: true
+description: Better miner unit. Have a big mine speed and can mine titanium.
+speed: 3
+hitsize: 7
+rotateSpeed: 5
+mineTier: 3
+mineSpeed: 10
+health: 100
+armor: 0
+itemCapacity: 75
+controller: MinerAI
