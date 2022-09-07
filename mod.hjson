@@ -1,10 +1,10 @@
-  name: ponchic
-  displayName: ponchic
-  author: sheptalo
-  description: olo
-  version: "1"
-  minGameVersion: 137
-  hidden: false
-  main: mca.MultiCrafterAdapter
-  java: true
+  name: "pon"
+  displayName: "ponchic"
+  author: "sheptalo" 
+  description: "olo" 
+  version: "1.0"
+  minGameVersion: "137"
+  hidden: "false"
+  main: "mca.MultiCrafterAdapter"
+  java: "true"
   
