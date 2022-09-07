@@ -13,8 +13,7 @@ copper/50
 ]
 }
 liquid: {
-ponchic-standart-material-liquid
-amount: 0.6
+ponchic-standart-material-liquid/0.6
 }
 }
 upgrades: [
