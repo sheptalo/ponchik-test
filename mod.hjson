@@ -5,6 +5,6 @@
   version: "1"
   minGameVersion: 137
   hidden: false
-  main: MultiCrafterAdapter
+  main: mca.MultiCrafterAdapter
   java: true
   
