@@ -9,5 +9,5 @@ mineTier: 1
 mineSpeed: 5
 health: 50
 armor: 0
-itemCapacity: 100
+itemCapacity: 50
 controller: MinerAI
