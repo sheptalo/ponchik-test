@@ -1,6 +1,8 @@
 type: multicraft.MultiCrafter
+name: "Fabric matter" 
+Description: "A factory that makes the necessary fluid for parts" 
 health: 400
-size: 3
+size: 2
 requirements:[
 pon-copper-plate/40
 pon-lead-plate/30
