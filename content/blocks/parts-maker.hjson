@@ -2,7 +2,7 @@ type: multicraft.MultiCrafter
 health: 350
 name: Parts maker
 description: Makes parts for the production of units. 
-size: 3
+size: 2
 health: 350
 recipes: [
   {
