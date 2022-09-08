@@ -7,12 +7,12 @@ health: 200
 recipes: [
   {
     input: copper/5
-    output: ponchic-copper-plate/5
+    output: pon-copper-plate/5
     craftTime: 100
   }
 {
 input: lead/5
-output: ponchic-lead-plate/5
+output: pon-lead-plate/5
 craftTime: 100
 }
 ] 
