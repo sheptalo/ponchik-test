@@ -1,14 +1,15 @@
 name: master
+
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [published]
+
 jobs:
-  build:
+  zip-files:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
-    - name: Zip Folder
-      run: zip -r release.zip . -x ".git/*" ".github/*"
-    - name: Release to Github
-run: echo "release"
+      - uses: actions/checkout@v2
+      - uses: vimtor/action-zip@v1
+        with:
+          files: dist/ manifest.json
+          dest: result.zip
