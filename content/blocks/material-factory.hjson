@@ -1,5 +1,5 @@
 type: multicraft.MultiCrafter
-name: "Fabric matter" 
+name: "Material factory" 
 Description: "A factory that makes the necessary fluid for parts" 
 health: 400
 size: 2
@@ -16,7 +16,7 @@ recipes:
             power: 3
         }
         output: {
-liquid: material/1
+fluids: [material/1]
 }
         craftTime: 200
     }
