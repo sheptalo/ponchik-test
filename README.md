@@ -1,13 +1,15 @@
-## mod
+## ponchik
+need multicrafter lib
+this mod is just only for fun
 i like units but i think they very easy to create and in future i will make units that will hard to create
 ## todo list
 - [x] add plates of most ores
-- [ ] add liquid workpiece for parts
+- [x] add liquid workpiece for parts
 - [ ] add units t1
 - [ ] add units t2
+- [ ] add universal liquid workpiece and parts for units
+- [ ] add turrets) 
 - [ ] resprite all plates
-- [ ] made parts to create units
-- [ ] learn my friend do mod for faster develop
+- [x] learn my friend do mod for faster develop
 - [ ] very hard: made sounds
 - [ ] and last add planet and tech tree for it
-- [ ] inject multicrafter in mod
