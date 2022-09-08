@@ -1,6 +1,4 @@
 type: multicraft.MultiCrafter
-displayName: electro press
-description: work faster than copper press and can press thitanium and thorium
 health: 100
 size: 2
 requirements:[
