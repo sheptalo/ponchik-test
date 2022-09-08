@@ -13,12 +13,7 @@ silicon/50
 copper/50
  ]
 }
-liquid: {
-liqiud: [
-pon-standart-material-liquid
-amount: 1
-]
- }
+liquid: pon-standart-material-liquid/1
 }
 upgrades: [
 [pon-rito, pon-arus]
