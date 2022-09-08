@@ -27,10 +27,9 @@ width: 3
 height: 4
 instantDisappear: false
 shrinkY: 0
-splashDamageRadius: 24
-splashDamage: 20
+splashDamageRadius: 10
 speed: 10
-damage: 30
+damage: 15
 lifetime: 60
 } 
 }
