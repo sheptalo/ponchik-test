@@ -18,14 +18,6 @@ power: 4
 liquid: material/1
 power: 4
 }
-    output: pon-mech-arm
-    craftTime: 500
-  }
-{
-    input: {
-liquid: material/1
-power: 4
-}
     output: pon-mech-main
     craftTime: 500
  } 
