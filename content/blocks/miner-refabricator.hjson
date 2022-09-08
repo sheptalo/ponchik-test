@@ -1,4 +1,4 @@
-type: reconstructor
+type: Reconstructor
 name: "Miner refabricator"
 description: "Update Rito into Arus. using not standart things to create"
 size: 2
