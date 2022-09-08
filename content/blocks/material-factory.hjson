@@ -11,14 +11,13 @@ recipes:
 [
     {
         input:{
-            items: {
-graphite/10
- lead/20
-} 
-            Liquid: water/1
+            items: [graphite/10, lead/20]
+            Liquid: [water]
             power: 3
         }
-        output: pon-material/1
+        output: {
+liquid: material/1
+}
         craftTime: 200
     }
 ] 
