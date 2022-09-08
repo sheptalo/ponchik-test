@@ -8,7 +8,8 @@ hitSize: 10
 itemCapacity: 20
 speed: 3
 rotateSpeed: 4
-weapon: {
+weapons:[ 
+{
 name: whistle-weapon
   x: 0
   y: 0
@@ -31,5 +32,6 @@ speed: 10
 damage: 30
 lifetime: 60
 } 
-} 
-hidden: true
+}
+] 
+
