@@ -7,8 +7,8 @@ requirements:[
 copper/30
 silicon/30
 titanium/15
-ponchic-copper-plate/25
-ponchic-lead-plate/25
+pon-copper-plate/25
+pon-lead-plate/25
 ]
 recipes:
 [
@@ -17,7 +17,7 @@ recipes:
             items: [copper/10]
             power: 2
         }
-        output: ponchic-copper-plate/10
+        output: pon-copper-plate/10
         craftTime: 75
     }
     {
@@ -25,7 +25,7 @@ recipes:
             items: [lead/10]
             power: 2
         } 
-        output: ponchic-lead-plate/10
+        output: pon-lead-plate/10
         craftTime: 75
     }
     {
@@ -33,7 +33,7 @@ recipes:
             items: [titanium/10]
             power: 2
             }
-            output: ponchic-titanium-plate/10
+            output: pon-titanium-plate/10
             craftTime: 75
             }
             {
@@ -41,7 +41,7 @@ recipes:
         items: [thorium/10]
         power: 2
         }
-        output: ponchic-titanium-plate/10
+        output: pon-titanium-plate/10
         craftTime: 75
         }
 ] 
