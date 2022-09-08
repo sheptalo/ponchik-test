@@ -5,6 +5,4 @@
   version: "1.0"
   minGameVersion: "137"
   hidden: "false"
-  main: "mca.MultiCrafterAdapter"
-  java: "true"
-  
+dependencies:["multi-crafter"]
