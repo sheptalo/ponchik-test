@@ -9,9 +9,19 @@ itemCapacity: 20
 speed: 3
 rotateSpeed: 4
 weapon: {
-name: bombExplosive
+name: whistle-weapon
 damage: 40
 reloadTime: 100
-bullet: bombExplosive
+bullet: {
+type: basicBulletType
+width: 3
+height: 4
+instantDisappear: true
+shrinkY: 0
+splashDamageRadius: 24
+splashDamage: 20
+speed: 10
+damage: 30
+lifetime: 60
 } 
 hidden: true
