@@ -9,6 +9,7 @@ recipes: [
     input: {
 liquid: material/1
 power: 4
+}
     output: pon-mech-leg
     craftTime: 500
   }
@@ -16,6 +17,7 @@ power: 4
     input: {
 liquid: material/1
 power: 4
+}
     output: pon-mech-arm
     craftTime: 500
   }
@@ -23,6 +25,7 @@ power: 4
     input: {
 liquid: material/1
 power: 4
+}
     output: pon-mech-main
     craftTime: 500
  } 
@@ -30,6 +33,7 @@ power: 4
     input: {
 liquid: material/1
 power: 4
+}
     output: pon-mech-head
     craftTime: 500
   }
@@ -37,6 +41,7 @@ power: 4
     input: {
 liquid: material/1
 power: 4
+}
     output: pon-mech-gun
     craftTime: 500
   }
@@ -44,6 +49,7 @@ power: 4
     input: {
 liquid: material/1
 power: 4
+}
     output: pon-mech-jet
     craftTime: 500
   }
