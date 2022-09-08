@@ -10,8 +10,15 @@ speed: 3
 rotateSpeed: 4
 weapon: {
 name: whistle-weapon
-damage: 40
-reloadTime: 100
+  x: 0
+  y: 0
+  shootY: 3
+  mirror: false
+  reload: 30
+  ejectEffect: none
+  recoil: 1
+  rotate: false
+  shootSound: flame
 bullet: {
 type: basicBulletType
 width: 3
