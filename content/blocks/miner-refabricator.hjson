@@ -1,7 +1,7 @@
 type: Reconstructor
 name: "Miner refabricator"
 description: "Update Rito into Arus. using not standart things to create"
-size: 2
+size: 4
 constructTime: 2000
 liquidCapacity: 60
 consumes: {
