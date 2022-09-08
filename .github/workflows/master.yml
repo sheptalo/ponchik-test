@@ -1,4 +1,4 @@
-name: Zip Files
+name: master
 
 on:
   release:
