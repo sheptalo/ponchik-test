@@ -12,7 +12,7 @@ recipes:
     {
         input:{
             items: [graphite/10,lead/20]
-            liquids: [water]
+            fluids: water
             power: 3
         }
         output: {
