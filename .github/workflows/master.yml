@@ -1,10 +1,4 @@
 name: Zip Files
-- name: Easy Zip Files
-  uses: vimtor/action-zip@v1
-  with:
-    files: dist/
-    recursive: false
-    dest: result.zip
 
 on:
   release:
@@ -17,5 +11,5 @@ jobs:
       - uses: actions/checkout@v2
       - uses: vimtor/action-zip@v1
         with:
-          files: dist/ manifest.json
+          files: dist/
           dest: result.zip
