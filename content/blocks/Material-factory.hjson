@@ -15,7 +15,7 @@ lead/20]
             power: 3
         }
         output: pon-material/1
-        craftTime: 50
+        craftTime: 200
     }
 ] 
 category: crafting
