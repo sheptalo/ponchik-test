@@ -15,7 +15,7 @@ power: 4
   }
 {
     input: {
-liquid: material/0.2
+fluids: material/0.2
 power: 4
 }
     output: pon-mech-main
@@ -23,7 +23,7 @@ power: 4
  } 
 {
     input: {
-liquid: material/0.2
+fluids: material/0.2
 power: 4
 }
     output: pon-mech-head
@@ -31,7 +31,7 @@ power: 4
   }
 {
     input: {
-liquid: material/0.2
+fluids: material/0.2
 power: 4
 }
     output: pon-mech-gun
@@ -39,7 +39,7 @@ power: 4
   }
 {
     input: {
-liquid: material/0.2
+fluids: material/0.2
 power: 4
 }
     output: pon-mech-jet
