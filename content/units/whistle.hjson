@@ -24,4 +24,5 @@ speed: 10
 damage: 30
 lifetime: 60
 } 
+} 
 hidden: true
