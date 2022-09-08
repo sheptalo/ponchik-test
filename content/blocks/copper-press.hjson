@@ -1,6 +1,4 @@
 type: multicraft.MultiCrafter
-displayName: Copper Press
-description: Presses various materials into plates.
 itemCapacity: 10
 size: 1
 health: 200
