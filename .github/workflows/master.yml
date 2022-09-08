@@ -1,17 +1,16 @@
-name: master
-
+name: Continuous Integration
 on:
-  release:
-    types: [published]
-
+  push:
+  pull_request:
 jobs:
-  zip-files:
+  composer-install:
     runs-on: ubuntu-latest
     steps:
-- uses: montudor/action-zip@v1
-  with:
-    args: zip -qq -r dir.zip dir
-- uses: actions/upload-artifact@v1
-  with:
-    name: my-artifact
-    path: ${{ github.workspace }}/result.zip
+      - uses: actions/checkout@v1
+      - run: composer install --ansi --no-progress --no-interaction --prefer-dist
+      - uses: montudor/action-zip@v1
+        with:
+          args: zip -qq -r vendor.zip vendor
+      - uses: actions/upload-artifact@v2
+        with:
+          name: vendor.zip
