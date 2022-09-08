@@ -1,9 +1,9 @@
 name: whistle
-description: basic unit. dont have guns. can drop bombs.
-health: 300
+description: basic unit. strange ship.
+health: 100
 type: flying
 flying: true
-armor: 50
+armor: 10
 hitSize: 10
 itemCapacity: 20
 speed: 3
