@@ -7,20 +7,20 @@ consumes: {
 power: 8
 items: {
 items:[
-ponchic-titanium-plate/30
+pon-titanium-plate/30
 silicon/50
 copper/50
 ]
 }
 liquid: {
-ponchic-standart-material-liquid/0.6
+pon-standart-material-liquid/0.6
 }
 }
 upgrades: [
-[ponchic-rito, ponchic-arus]
+[pon-rito, pon-arus]
 ]
 requirments:[
-ponchic-titanium-plate/400
+pon-titanium-plate/400
 silicon/300
 graphite/250
 ]
