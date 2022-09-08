@@ -14,3 +14,4 @@ damage: 40
 reloadTime: 100
 bullet: bombExplosive
 } 
+hidden: true
