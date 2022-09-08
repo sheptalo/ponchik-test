@@ -13,7 +13,7 @@ silicon/50
 copper/50
  ]
 }
-liquid: pon-material/1
+liquid: material/1
 }
 upgrades: [
 [pon-rito, pon-arus]
