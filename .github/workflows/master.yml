@@ -8,13 +8,9 @@ jobs:
   zip-files:
     runs-on: ubuntu-latest
     steps:
-- name: Checkout
-  uses: actions/checkout@v2.4.2
-- uses: vimtor/action-zip@v1
+- uses: montudor/action-zip@v1
   with:
-    files: dist/ manifest.json
-    recursive: false
-    dest: result.zip
+    args: zip -qq -r dir.zip dir
 - uses: actions/upload-artifact@v1
   with:
     name: my-artifact
