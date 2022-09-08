@@ -1,4 +1,6 @@
 name: master
+- name: Easy Zip Files
+  uses: vimtor/action-zip@v1
 
 on:
   release:
