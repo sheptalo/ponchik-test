@@ -11,11 +11,10 @@ recipes:
         input:{
             items: [graphite/10
 water/20
-lead/20
-]
+lead/20]
             power: 3
         }
-        output: liquid: pon-material/1
+        output: pon-material/1
         craftTime: 50
     }
 ] 
