@@ -11,9 +11,9 @@ recipes:
 [
     {
         input:{
-            items: [graphite/10
-water/20
+            items: [graphite/10,
 lead/20]
+            Liquid: [water/20]
             power: 3
         }
         output: pon-material/1
