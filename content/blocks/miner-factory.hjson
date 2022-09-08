@@ -1,5 +1,3 @@
-name: miner factory
-description: produce miner unit without using silicon
 type: UnitFactory
 health: 300
 size: 2
