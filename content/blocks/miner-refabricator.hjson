@@ -2,19 +2,20 @@ type: Reconstructor
 name: "Miner refabricator"
 description: "Update Rito into Arus. using not standart things to create"
 size: 2
+constructTime: 2000
 liquidCapacity: 60
 consumes: {
 power: 8
 items: {
-items:[
+items: [
 pon-titanium-plate/30
 silicon/50
 copper/50
-]
+ ]
 }
 liquid: {
 pon-standart-material-liquid/0.6
-}
+ }
 }
 upgrades: [
 [pon-rito, pon-arus]
