@@ -14,7 +14,7 @@ recipes:
             items: [graphite/10,lead/20]
             power: 3
         }
-        output: material/2
+        output: pon-material/2
         craftTime: 200
     }
 ] 
