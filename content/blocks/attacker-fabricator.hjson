@@ -1,0 +1,22 @@
+type: UnitFactory
+health: 300
+size: 2
+requirements:[
+    pon-copper-plate/100
+    pon-lead-plate/75
+coal/75
+]
+consumes:{
+    power: 3
+}
+plans: [
+    {
+        unit:whistle
+        requirements:[
+            pon-lead-plate/75
+            pon-copper-plate/40
+        ]
+        time: 1300
+    }
+]
+category: units
