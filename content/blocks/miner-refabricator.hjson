@@ -14,7 +14,8 @@ copper/50
  ]
 }
 liquid: {
-pon-standart-material-liquid/0.6
+pon-standart-material-liquid
+amount: 1
  }
 }
 upgrades: [
