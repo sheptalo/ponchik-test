@@ -1,7 +1,7 @@
-name: "pon" 
+name: pon
 displayName: "test version ponchik"
 author: "sheptalo" 
-description: "test version "ponchik"" 
+description: "test version"
 version: "1.0"
 minGameVersion: "137"
 hidden: "false"
