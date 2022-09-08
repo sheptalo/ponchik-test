@@ -1,0 +1,23 @@
+type: multicraft.MultiCrafter
+health: 400
+size: 3
+requirements:[
+pon-copper-plate/40
+pon-lead-plate/30
+]
+recipes:
+[
+    {
+        input:{
+            items: [graphite/10
+water/20
+lead/20
+]
+            power: 3
+        }
+        output: liquid: pon-material/1
+        craftTime: 50
+    }
+] 
+category: crafting
+menu: Simple
