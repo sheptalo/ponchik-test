@@ -4,8 +4,8 @@ type: UnitFactory
 health: 300
 size: 2
 requirements:[
-    ponchic-copper-plate/20
-    ponchic-lead-plate/10
+    pon-copper-plate/20
+    pon-lead-plate/10
 graphite/20
 ]
 consumes:{
@@ -15,8 +15,8 @@ plans: [
     {
         unit:rito
         requirements:[
-            ponchic-lead-plate/25
-            ponchic-copper-plate/50
+            pon-lead-plate/25
+            pon-copper-plate/50
         ]
         time: 1000
     }
