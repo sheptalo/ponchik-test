@@ -1,0 +1,8 @@
+name: whistle
+description: basic unit. dont have guns. can drop bombs.
+health: 300
+armor: 50
+hitSize: 10
+itemCapacity: 20
+speed: 3
+rotateSpeed: 4
