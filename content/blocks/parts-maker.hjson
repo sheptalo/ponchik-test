@@ -7,7 +7,7 @@ health: 350
 recipes: [
   {
     input: {
-liquids: pon-material/0.2
+fluids: pon-material/0.2
 power: 4
 }
     output: pon-mech-leg
