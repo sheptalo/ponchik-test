@@ -15,16 +15,16 @@ name: whistle-weapon
   y: 0
   shootY: 3
   mirror: false
-  reload: 30
+  reload: 90
   ejectEffect: none
   recoil: 1
-  rotate: false
+  rotate: true
   shootSound: flame
 bullet: {
 type: basicBulletType
 width: 3
 height: 4
-instantDisappear: true
+instantDisappear: false
 shrinkY: 0
 splashDamageRadius: 24
 splashDamage: 20
