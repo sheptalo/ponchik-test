@@ -14,8 +14,10 @@ copper/50
  ]
 }
 liquid: {
+liqiud: [
 pon-standart-material-liquid
 amount: 1
+]
  }
 }
 upgrades: [
