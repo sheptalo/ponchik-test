@@ -42,8 +42,7 @@ titanium: {
 	}
 coolantMultiplier: 0.2
 requirements: [
-copper/250
-silicon/275
-pon-copper-plate/200
+lead/50
+pon-copper-plate/30
 ]
 category: turret
