@@ -1,0 +1,34 @@
+	name: Scar
+	description: Sniper turret.
+	type: ItemTurret
+	size: 2
+	health: 450
+	recoilAmount: 1
+	reloadTime: 35
+	ammoUseEffect: casing1
+	shootSound: shotgun
+	inaccuracy: 0.0
+	shots: 1
+	rotateSpeed: 0.7
+	ammoTypes: {
+  {
+		graphite: {
+			speed: 50.0
+			lifetime: 75
+			damage: 150
+			reloadMultiplier: 0.5
+			width: 3
+			height: 9
+			shootEffect: shootSmall
+			smokeEffect: shootSmallSmoke
+			
+			ammoMultiplier: 1
+			backColor: 2A5C60
+			frontColor: 276468
+		}
+	}
+	coolantMultiplier: 0.7
+	requirements: [
+
+	]
+	category: turret
