@@ -3,17 +3,17 @@ description: turret.
 type: ItemTurret
 size: 1
 health: 200
-reloadTime: 360
+reloadTime: 500
 ammoUseEffect: casing1
 shootSound: shotgun
 inaccuracy: 1
-shots: 2
+shots: 1
 range: 125
 rotateSpeed: 1
 ammoTypes: {
 copper: {
 	speed: 5
-	lifetime: 60
+	lifetime: 30
 	damage: 25
 	reloadMultiplier: 1
 	width: 3
