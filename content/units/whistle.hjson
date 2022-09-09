@@ -1,6 +1,6 @@
 name: whistle
 description: basic unit. strange ship.
-health: 100
+health: 150
 type: flying
 flying: true
 armor: 10
@@ -11,8 +11,8 @@ rotateSpeed: 4
 weapons:[ 
 {
 name: whistle-weapon
-  x: 0
-  y: 0
+  x: -5
+  y: 10
   shootY: 3
   mirror: false
   reload: 90
