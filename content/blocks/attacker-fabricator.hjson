@@ -14,7 +14,7 @@ plans: [
         unit:whistle
         requirements:[
             pon-lead-plate/75
-            pon-copper-plate/40
+            pon-mech-jet/2
         ]
         time: 1300
     }
