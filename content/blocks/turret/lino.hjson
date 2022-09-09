@@ -8,14 +8,28 @@ reloadTime: 360
 ammoUseEffect: casing1
 shootSound: shotgun
 inaccuracy: 0.0
-shots: 0.1
+shots: 2
 range: 250
 rotateSpeed: 0.7
 ammoTypes: {
-graphite: {
+copper: {
 	speed: 1.0
 	lifetime: 50
-	damage: 150
+	damage: 25
+	reloadMultiplier: 1
+	width: 3
+	height: 9
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+			
+	ammoMultiplier: 1
+	backColor: 2A5C60
+	frontColor: 276468
+		}
+titanium: {
+	speed: 1.0
+	lifetime: 50
+	damage: 30
 	reloadMultiplier: 1
 	width: 3
 	height: 9
@@ -27,7 +41,7 @@ graphite: {
 	frontColor: 276468
 		}
 	}
-coolantMultiplier: 0.7
+coolantMultiplier: 0.2
 requirements: [
 copper/250
 silicon/275
