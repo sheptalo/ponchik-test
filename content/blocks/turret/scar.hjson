@@ -1,0 +1,48 @@
+name: Scar
+description: turret.
+type: ItemTurret
+size: 2
+health: 200
+reloadTime: 500
+ammoUseEffect: casing1
+shootSound: shotgun
+inaccuracy: 1
+shots: 1
+range: 250
+rotateSpeed: 1
+ammoTypes: {
+copper: {
+	speed: 10
+	lifetime: 30
+	damage: 25
+	reloadMultiplier: 0.2
+	width: 3
+	height: 9
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+			
+	ammoMultiplier: 2
+	backColor: 2A5C60
+	frontColor: 276468
+		}
+titanium: {
+	speed: 10
+	lifetime: 50
+	damage: 30
+	reloadMultiplier: 0.2
+	width: 3
+	height: 9
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+			
+	ammoMultiplier: 2
+	backColor: 2A5C60
+	frontColor: 276468
+		}
+	}
+coolantMultiplier: 0.2
+requirements: [
+lead/50
+pon-copper-plate/30
+]
+category: turret
