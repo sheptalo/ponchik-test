@@ -8,12 +8,12 @@ ammoUseEffect: casing1
 shootSound: shotgun
 inaccuracy: 1
 shots: 2
-range: 250
+range: 125
 rotateSpeed: 1
 ammoTypes: {
 copper: {
-	speed: 1.0
-	lifetime: 50
+	speed: 5
+	lifetime: 60
 	damage: 25
 	reloadMultiplier: 1
 	width: 3
@@ -26,7 +26,7 @@ copper: {
 	frontColor: 276468
 		}
 titanium: {
-	speed: 1.0
+	speed: 5
 	lifetime: 50
 	damage: 30
 	reloadMultiplier: 1
