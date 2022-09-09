@@ -8,15 +8,15 @@ reloadTime: 360
 ammoUseEffect: casing1
 shootSound: shotgun
 inaccuracy: 0.0
-shots: 1
-range: 2000
+shots: 0.5
+range: 1000
 rotateSpeed: 0.7
 ammoTypes: {
 graphite: {
-	speed: 50.0
+	speed: 10.0
 	lifetime: 50
 	damage: 150
-	reloadMultiplier: 0.5
+	reloadMultiplier: 1
 	width: 3
 	height: 9
 	shootEffect: shootSmall
