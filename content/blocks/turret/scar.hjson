@@ -3,18 +3,18 @@ description: Sniper turret.
 type: ItemTurret
 size: 2
 health: 450
-recoilAmount: 1
-reloadTime: 180
+recoilAmount: 2
+reloadTime: 360
 ammoUseEffect: casing1
 shootSound: shotgun
 inaccuracy: 0.0
 shots: 1
-range: 70
+range: 2000
 rotateSpeed: 0.7
 ammoTypes: {
 graphite: {
 	speed: 50.0
-	lifetime: 70
+	lifetime: 50
 	damage: 150
 	reloadMultiplier: 0.5
 	width: 3
