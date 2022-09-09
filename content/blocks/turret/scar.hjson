@@ -1,5 +1,5 @@
-name: Scar
-description: Sniper turret.
+name: Lino
+description: turret.
 type: ItemTurret
 size: 2
 health: 450
@@ -8,12 +8,12 @@ reloadTime: 360
 ammoUseEffect: casing1
 shootSound: shotgun
 inaccuracy: 0.0
-shots: 0.5
-range: 1000
+shots: 0.1
+range: 250
 rotateSpeed: 0.7
 ammoTypes: {
 graphite: {
-	speed: 10.0
+	speed: 1.0
 	lifetime: 50
 	damage: 150
 	reloadMultiplier: 1
