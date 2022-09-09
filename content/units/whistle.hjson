@@ -7,7 +7,6 @@ armor: 10
 hitSize: 10
 itemCapacity: 20
 speed: 3
-attackLenght: 30
 rotateSpeed: 4
 weapons:[ 
 {
@@ -15,7 +14,7 @@ name: whistle-weapon
   x: 0
   y: 0
   shootY: 3
-range: 0.5f
+range: 1
   mirror: false
   reload: 90
   ejectEffect: none
