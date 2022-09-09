@@ -12,10 +12,33 @@ weapons:[
 {
 name: whistle-weapon
   x: -5
-  y: 10
+  y: 8
   shootY: 3
   mirror: false
-  reload: 90
+  reload: 60
+  ejectEffect: none
+  recoil: 1
+  rotate: true
+  shootSound: flame
+bullet: {
+type: basicBulletType
+width: 3
+height: 4
+instantDisappear: false
+shrinkY: 0
+splashDamageRadius: 10
+speed: 10
+damage: 15
+lifetime: 30
+} 
+}
+{
+name: whistle-weapon
+  x: 5
+  y: 8
+  shootY: 3
+  mirror: true
+  reload: 60
   ejectEffect: none
   recoil: 1
   rotate: true
