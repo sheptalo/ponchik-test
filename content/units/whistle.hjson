@@ -14,7 +14,6 @@ name: whistle-weapon
   x: 0
   y: 0
   shootY: 3
-range: 0.5
   mirror: false
   reload: 90
   ejectEffect: none
