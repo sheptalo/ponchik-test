@@ -11,7 +11,6 @@
 	shots: 1
 	rotateSpeed: 0.7
 	ammoTypes: {
-  {
 		graphite: {
 			speed: 50.0
 			lifetime: 75
