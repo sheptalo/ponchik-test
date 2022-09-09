@@ -30,6 +30,6 @@ coolantMultiplier: 0.7
 requirements: [
 copper/250
 silicon/275
-pon-titanium-plates/200
+pon-titanium-plate/200
 ]
 category: turret
