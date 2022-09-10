@@ -6,11 +6,10 @@ i like units but i think they very easy to create and in future i will make unit
 - [ ] learn how to make normal sprites
 - [x] add plates of most ores
 - [x] add liquid workpiece for parts
-- [ ] add units t1
+- add units t1 in progress
 - [ ] add units t2
 - [ ] add universal liquid workpiece and parts for units
-- [ ] add turrets) 
-- [ ] resprite all plates
+- add turrets in progress
+- [x] resprite all plates
 - [x] learn my friend do mod for faster develop
-- [ ] very hard: made sounds
 - [ ] and last add planet and tech tree for it
