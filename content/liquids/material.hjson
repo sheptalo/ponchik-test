@@ -1,4 +1,5 @@
 name: material
+type: Liquid
 description: this liquid has standart materials for crafting factory
 booster: false
 color: bf8b65
