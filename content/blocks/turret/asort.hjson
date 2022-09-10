@@ -25,7 +25,7 @@ graphite: {
 	backColor: 5565c2
 	frontColor: ffb380
 		}
-pyrotite: {
+pyratite: {
 	speed: 5
 	lifetime: 50
 	damage: 150
