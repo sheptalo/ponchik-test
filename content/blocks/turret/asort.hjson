@@ -43,7 +43,7 @@ pyratite: {
 coolantMultiplier: 0.2
 requirements: [
 titanium/200
-plastan/150
+plastanium/150
 graphite/200
 ]
 category: turret
