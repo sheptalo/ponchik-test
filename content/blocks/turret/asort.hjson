@@ -3,7 +3,7 @@ description: turret for bombing enemy bases.
 type: ItemTurret
 size: 3
 health: 600
-reloadTime: 500
+reload: 250
 ammoUseEffect: casing1
 shootSound: shotgun
 inaccuracy: 5
@@ -13,8 +13,8 @@ rotateSpeed: 2
 ammoTypes: {
 graphite: {
 	speed: 5
-	lifetime: 30
-	damage: 100
+	lifetime: 50
+	damage: 30
 	reloadMultiplier: 1
 	width: 9
 	height: 9
@@ -28,7 +28,7 @@ graphite: {
 pyratite: {
 	speed: 5
 	lifetime: 50
-	damage: 150
+	damage: 40
 	reloadMultiplier: 1
 	width: 9
 	height: 9
