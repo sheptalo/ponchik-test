@@ -24,7 +24,7 @@ lead: {
 	backColor: 8F675B
 	frontColor: C9A58F
 		}
-plastan: {
+plastanium: {
 	speed: 10
 	lifetime: 30
 	damage: 8
