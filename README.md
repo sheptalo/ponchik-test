@@ -15,5 +15,4 @@ i like units but i think they very easy to create and in future i will make unit
 - [ ] and last add planet and tech tree for it
 
 ## credits
-
-@liplum (creator of multi-crafter)
+- [@liplum](https://github.com/liplum) (`Liplum#2623` on Discord): Creator of [MultiCrafterLib](https://github.com/liplum/MultiCrafterLib) 
