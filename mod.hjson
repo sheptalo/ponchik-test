@@ -5,4 +5,6 @@ description: "test version"
 version: "1.0"
 minGameVersion: "137"
 hidden: "false"
-dependencies:["multi-crafter"]
+java: true
+main: MultiCrafterAdapter
+dependencies:[""]
