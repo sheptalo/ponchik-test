@@ -5,37 +5,13 @@ description: Makes parts for the production of units.
 size: 2
 health: 350
 recipes: [
-  {
-    input: {
-fluids: pon-material/0.2
-power: 4
-}
-    output: pon-mech-leg
-    craftTime: 500
-  }
-{
-    input: {
-fluids: [pon-material/0.2,water/0.1]
-power: 4
-}
-    output: pon-mech-main
-    craftTime: 500
- } 
-{
-    input: {
-fluids: [pon-material/0.2,water/0.2]
-power: 4
-}
-    output: pon-mech-head
-    craftTime: 500
-  }
 {
     input: {
 fluids: [pon-material/0.2,water/0.2]
 power: 4
 }
     output: pon-mech-gun
-    craftTime: 500
+    craftTime: 750
   }
 {
     input: {
@@ -43,13 +19,13 @@ fluids: [pon-material/0.2,water/0.2]
 power: 4
 }
     output: pon-mech-jet
-    craftTime: 500
+    craftTime: 750
   }
 ] 
 requirements: [
- pon-lead-plate/75
+pon-lead-plate/75
 copper/50
 sand/100
 ]
 category: crafting
-menu: simple
+menu: detail
