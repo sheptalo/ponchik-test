@@ -1,6 +1,6 @@
 ## ponchik
-need multicrafter lib
 this mod is just only for fun
+made chaotic things
 i like units but i think they very easy to create and in future i will make units that will hard to create
 ## todo list
 - [ ] learn how to make normal sprites
