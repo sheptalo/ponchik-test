@@ -1,0 +1,7 @@
+name: "Big reinforced wall"
+type: Wall
+category: defense
+health: 1380
+requirements:[
+copper/48
+pon-lead-plate/48
