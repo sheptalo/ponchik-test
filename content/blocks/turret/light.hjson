@@ -3,7 +3,7 @@ description: turret.
 type: ItemTurret
 size: 1
 health: 200
-reload: 50
+reload: 20
 ammoUseEffect: casing2
 shootSound: shotgun
 inaccuracy: 10
