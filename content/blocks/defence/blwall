@@ -1,6 +1,6 @@
 name: "Big reinforced wall"
 type: Wall
-category: defense
+category: defence
 health: 1380
 requirements:[
 copper/48
