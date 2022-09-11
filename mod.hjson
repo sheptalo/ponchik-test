@@ -7,4 +7,4 @@ minGameVersion: "137"
 hidden: "false"
 java: true
 main: MultiCrafterAdapter
-dependencies:[""]
+dependencies:[]
