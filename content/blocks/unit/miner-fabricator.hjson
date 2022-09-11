@@ -1,6 +1,6 @@
 type: UnitFactory
 health: 300
-size: 2
+size: 3
 requirements:[
     pon-copper-plate/20
     pon-lead-plate/10
