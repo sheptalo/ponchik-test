@@ -11,9 +11,9 @@ items: [
 pon-titanium-plate/30
 silicon/50
 copper/50
+pon-mech-jet/2
  ]
 }
-liquid: material/0.2
 }
 upgrades: [
 [pon-rito, pon-arus]
