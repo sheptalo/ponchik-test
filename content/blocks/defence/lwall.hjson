@@ -2,7 +2,7 @@ type: Wall
 name: "Reinforced copper wall"
 health: 360
 size: 1
-category: defence
+category: defense
 requirements:[
 copper/12
 pon-lead-plate/12
