@@ -1,0 +1,46 @@
+name: Light
+description: turret.
+type: ItemTurret
+size: 1
+health: 200
+reload: 50
+ammoUseEffect: casing2
+shootSound: shotgun
+inaccuracy: 10
+shots: 1
+range: 250
+rotateSpeed: 5
+ammoTypes: {
+lead: {
+	speed: 10
+	lifetime: 25
+	damage: 5
+	width: 2
+	height: 2
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+			
+	ammoMultiplier: 5
+	backColor: 8F675B
+	frontColor: C9A58F
+		}
+plastan: {
+	speed: 10
+	lifetime: 30
+	damage: 8
+	width: 3
+	height: 3
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+			
+	ammoMultiplier: 5
+	backColor: 2A5C60
+	frontColor: 276468
+		}
+	}
+coolantMultiplier: 0.7
+requirements: [
+copper/50
+pon-lead-plate/30
+]
+category: turret
