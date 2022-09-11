@@ -1,9 +1,9 @@
 name: pool
 description: turret.
 type: ItemTurret
-size: 2
+size: 3
 health: 500
-reload: 180
+reload: 50
 ammoUseEffect: casing1
 shootSound: shotgun
 inaccuracy: 1
