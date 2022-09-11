@@ -1,0 +1,47 @@
+name: pool
+description: turret.
+type: ItemTurret
+size: 2
+health: 500
+reload: 180
+ammoUseEffect: casing1
+shootSound: shotgun
+inaccuracy: 1
+shots: 1
+range: 200
+rotateSpeed: 3
+ammoTypes: {
+pon-lead-plate: {
+	speed: 10
+	lifetime: 20
+	damage: 25
+	width: 3
+	height: 9
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+			
+	ammoMultiplier: 2
+	backColor: 8F675B
+	frontColor: C9A58F
+		}
+silicon: {
+	speed: 10
+	lifetime: 20
+	damage: 30
+	width: 3
+	height: 9
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+			
+	ammoMultiplier: 2
+	backColor: 2A5C60
+	frontColor: 276468
+		}
+	}
+coolantMultiplier: 0.2
+requirements: [
+lead/100
+pon-copper-plate/300
+silicon/100
+]
+category: turret
