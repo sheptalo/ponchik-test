@@ -1,0 +1,44 @@
+type: multicraft.MultiCrafter
+name: "Plate seller"
+description: "Sells all plates"
+health: 600
+size: 2
+menu: Detail
+recipes: 
+[
+{
+    input:{
+        items: pon-copper-plate/2
+    }
+    output: pon-coin/2
+    craftTime: 1
+}
+{
+    input:{
+        items: pon-lead-plate/2
+    }
+    output: pon-coin/2
+    craftTime: 1
+}
+{
+    input:{
+        items: pon-titanium-plate/1
+    }
+    output: pon-coin/2
+    craftTime: 1
+}
+{
+    input:{
+        items: pon-thorium-plate/1
+    }
+    output: pon-coin/2
+    craftTime: 1
+}
+]
+requirements:
+[
+    copper/90
+    lead/75
+    pon-titanium-plate/50
+]
+category: production

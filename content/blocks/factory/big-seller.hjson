@@ -1,0 +1,51 @@
+type: multicraft.MultiCrafter
+name: "Big seller"
+description: "Sells titanium, plastanium, thorium, surge alloy, phaze tkan"
+health: 800
+size: 3
+menu: Detail
+recipes: 
+[
+{
+    input:{
+        items: titanium/2
+    }
+    output: pon-coin/2
+    craftTime: 1
+}
+{
+    input:{
+        items: thorium/1
+    }
+    output: pon-coin/2
+    craftTime: 1
+}
+{
+    input:{
+        items: plastanium/1
+    }
+    output: pon-coin/3
+    craftTime: 1
+}
+{
+    input:{
+        items: surge-alloy/1
+    }
+    output: pon-coin/2
+    craftTime: 1
+}
+{
+    input:{
+        items: graphite/1
+    }
+    output: pon-coin
+    craftTime: 1
+}
+]
+requirements:
+[
+    copper/90
+    lead/75
+    pon-thorium-plate/50
+]
+category: production

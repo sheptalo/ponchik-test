@@ -1,0 +1,42 @@
+type: multicraft.MultiCrafter
+name: Cloner
+desciption: "Clones basic items using coins."
+size: 2
+health: 300
+menu: Detail
+recipes:
+[
+    {
+        input:{
+            items: [copper/1, pon-coin/3]
+        }
+        output: copper/2
+        craftTime: 1
+    }
+    {
+        input:{
+            items: [lead/1, pon-coin/3]
+        }
+        output: lead/2
+        craftTime: 1
+    }
+    {
+        input:{
+            items: [coal/1, pon-coin/5]
+        }
+    }
+    {
+        input:{
+            items: [graphite/1, pon-coin/6]
+        }
+        output: graphite/2
+        craftTime: 1
+    }
+    {
+        input:{
+            items: [silicon/1, pon-coin/6]
+        }
+        output: silicon/2
+        craftTime: 1
+    }
+]

@@ -1,0 +1,64 @@
+type: multicraft.MultiCrafter
+name: "Basic seller"
+description: "Sells basic ores"
+health: 300
+size: 2
+menu: Detail
+recipes: 
+[
+{
+    input:{
+        items: copper/2
+    }
+    output: pon-coin
+    craftTime: 1
+}
+{
+    input:{
+        items: lead/2
+    }
+    output: pon-coin
+    craftTime: 1
+}
+{
+    input:{
+        items: coal/1
+    }
+    output: pon-coin/2
+}
+{
+    input:{
+        items: sand/10
+    }
+    output: pon-coin
+    craftTime: 1
+}
+{
+    input:{
+        items: scrap/10
+    }
+    output: pon-coin
+    craftTime: 1
+}
+{
+    input:{
+        items: graphite/1
+    }
+    output: pon-coin/3
+    craftTime: 1
+}
+{
+    input:{
+        items: silicon/1
+    }
+    output: pon-coin/3
+    craftTime: 1
+}
+]
+requirements:
+[
+    copper/90
+    lead/75
+    pon-titanium-plate/50
+]
+category: production
