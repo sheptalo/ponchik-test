@@ -1,7 +1,7 @@
 name: pon
-displayName: "test version ponchik"
-author: "sheptalo" 
-description: "test version"
+displayName: "ponchik"
+author: "sheptalo"
+description: "mod for doing chaotic things"
 version: "1.0"
 minGameVersion: "137"
 hidden: "false"
