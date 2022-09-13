@@ -1,0 +1,9 @@
+name: "Plate wall"
+health: 500
+size: 1
+category: defense
+requirements: [
+pon-copper-plate/6
+pon-lead-plate/6
+]
+category: defense
