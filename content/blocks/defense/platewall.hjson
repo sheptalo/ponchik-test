@@ -1,5 +1,6 @@
 name: "Plate wall"
 health: 500
+type: Wall
 size: 1
 category: defense
 requirements: [
