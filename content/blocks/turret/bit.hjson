@@ -1,0 +1,32 @@
+type: PowerTurret
+name: "Bit"
+description: "-"
+health: 400
+size: 2
+recoilAmount: 0
+reload: 50.0
+range: 200
+chargeMaxDelay: 30
+shootType: 
+{
+  type: LaserBulletType
+  hitEffect: hitLancer
+  despawnEffect: none
+  hitSize: 14
+  lifetime: 30
+  drawSize: 500
+  collidesAir: false
+}
+targetAir: false
+powerUse: 6
+inaccuracy: 0.0
+rotateSpeed: 2
+chargeEffects: 50.0
+requirements: 
+[
+ pon-lead-plate/60
+ metaglass/60
+ graphite/60
+]
+coolantMultiplier: 0.5
+category: turret
