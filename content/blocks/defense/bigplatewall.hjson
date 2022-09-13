@@ -1,0 +1,9 @@
+type: Wall
+name: "Big plate wall"
+health: 5000
+size: 2
+category: defense
+requirements: [
+pon-titanium-plate/24
+pon-thorium-plate/24
+] 
