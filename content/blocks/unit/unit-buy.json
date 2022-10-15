@@ -1,0 +1,7 @@
+{
+  "name": "unit buy",
+  "type": "multicraft.MultiCrafter",
+  "description": "buy low tier units using coins", 
+  "health": "500",
+  "size": 3
+} 
