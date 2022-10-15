@@ -12,6 +12,14 @@ plans:
     unit: dagger
     requirements:
       [
+        pon-coin/30
+      ]
+    time: 1
+  }
+    {
+    unit: mono
+    requirements:
+      [
         pon-coin/50
       ]
     time: 1
