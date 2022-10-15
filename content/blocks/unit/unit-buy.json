@@ -1,7 +1,18 @@
 {
   "name": "unit buy",
-  "type": "multicraft.MultiCrafter",
+  "type": "UnitFactory",
   "description": "buy low tier units using coins", 
-  "health": "500",
-  "size": 3
+  "health": 500,
+  "size": 3,
+  "plans":
+  [
+    {
+      "unit": "whistle",
+        "requirements":
+        [
+            "pon-coin/500"
+        ],
+        "time": "1"
+    }
+  ]
 } 
