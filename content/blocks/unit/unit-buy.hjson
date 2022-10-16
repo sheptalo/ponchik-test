@@ -24,6 +24,14 @@ plans:
       ]
     time: 1
   }
+  {
+  unit: whistle
+  requirements:
+  [
+  pon-coin/60
+  ]
+  time:1
+  }
 ]
 requirements:[
 pon-copper-plate/100
